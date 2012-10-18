@@ -22,7 +22,7 @@ void setup(){
 
 void loop(){
   meter = analogRead(touchSensor);
-  if(meter == 0){
+  if(meter > 100){
     //do nothing
   }else{
     if(delimeter == 6){
